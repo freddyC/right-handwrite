@@ -1,0 +1,30 @@
+{
+  "name": "right-handwrite",
+  "version": "1.0.0",
+  "description": "uses brain.js and http://yann.lecun.com/exdb/mnist/ to create a neural network that will read handwriten letters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddyC/right-handwrite.git"
+  },
+  "keywords": [
+    "ai",
+    "neural",
+    "network",
+    "handwriting",
+    "brain.js"
+  ],
+  "author": "Fred Christensen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freddyC/right-handwrite/issues"
+  },
+  "homepage": "https://github.com/freddyC/right-handwrite#readme",
+  "dependencies": {
+    "brain.js": "^1.0.0-rc.3",
+    "mnist": "^1.1.0"
+  }
+}
